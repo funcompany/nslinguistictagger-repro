@@ -16,8 +16,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  NSArray<NSLinguisticTagScheme> *tagSchemes = [NSLinguisticTagger availableTagSchemesForLanguage:@"en"];
-  NSLog(@"Available tag schemes %@", tagSchemes);
   return YES;
 }
 
